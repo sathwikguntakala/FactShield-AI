@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+markers = [
+    "live: marks tests requiring a live GEMINI_API_KEY (deselect with '-m \"not live\"')",
+]
